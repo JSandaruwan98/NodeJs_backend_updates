@@ -1,0 +1,124 @@
+{
+	"id": "b6290e10-59c5-4fee-814b-8eb304758264",
+	"name": "Selection Assessment(NodeJs backend)",
+	"timestamp": "2023-05-17T11:45:00.017Z",
+	"collection_id": "27460792-c84f088b-989b-4055-932c-492d4063405b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": "0",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-17T11:44:51.215Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c9dd1d0d-a602-4e24-b7ef-0e84ac332cc4",
+			"name": "localhost:3000/api/users/register",
+			"url": "localhost:3000/api/users/register",
+			"time": 307,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				179,
+				376,
+				871,
+				452,
+				287,
+				611,
+				307
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "0d399e34-2eea-49e6-aecd-bc6eae498a87",
+			"name": "localhost:3000/api/users/login",
+			"url": "localhost:3000/api/users/login",
+			"time": 539,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294,
+				339,
+				579,
+				363,
+				421,
+				487,
+				539
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "5ef46ae8-2814-480f-a549-86105eaa4daf",
+			"name": "localhost:3000/api/users/profile",
+			"url": "localhost:3000/api/users/profile",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4,
+				3,
+				3,
+				3,
+				4,
+				3,
+				3
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 7,
+	"totalTime": 6128,
+	"collection": {
+		"requests": [
+			{
+				"id": "c9dd1d0d-a602-4e24-b7ef-0e84ac332cc4",
+				"method": "POST"
+			},
+			{
+				"id": "0d399e34-2eea-49e6-aecd-bc6eae498a87",
+				"method": "POST"
+			},
+			{
+				"id": "5ef46ae8-2814-480f-a549-86105eaa4daf",
+				"method": "GET"
+			}
+		]
+	}
+}
