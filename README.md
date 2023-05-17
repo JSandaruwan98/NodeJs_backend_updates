@@ -1,6 +1,7 @@
 # NodeJs_backend_updates
 
 Endpoint: User registration
+	
 	URI: localhost:3000/api/users/register
 	request payload (json): 
 		{
@@ -22,6 +23,7 @@ Endpoint: User registration
 
 
 Endpoint: User login
+
 	URI: localhost:3000/api/users/login
 	request payload (json): 
 		{
@@ -37,6 +39,7 @@ Endpoint: User login
 
 
 Authentication: For authentication, the JWT token is included in the "authorization" header of subsequent requests using the Bearer Token method.
+	
 	URI: localhost:3000/api/users/profile
 	response format(json):
 		{
